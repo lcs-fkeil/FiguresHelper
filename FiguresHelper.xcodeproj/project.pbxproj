@@ -11,6 +11,7 @@
 		62FFF26C2757C3CE00915FCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFF26B2757C3CE00915FCE /* ContentView.swift */; };
 		62FFF26E2757C3D000915FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FFF26D2757C3D000915FCE /* Assets.xcassets */; };
 		62FFF2712757C3D000915FCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FFF2702757C3D000915FCE /* Preview Assets.xcassets */; };
+		62FFF2782757C6FC00915FCE /* PreparedCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFF2772757C6FC00915FCE /* PreparedCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		62FFF26B2757C3CE00915FCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62FFF26D2757C3D000915FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62FFF2702757C3D000915FCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62FFF2772757C6FC00915FCE /* PreparedCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparedCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				62FFF26B2757C3CE00915FCE /* ContentView.swift */,
 				62FFF26D2757C3D000915FCE /* Assets.xcassets */,
 				62FFF26F2757C3D000915FCE /* Preview Content */,
+				62FFF2772757C6FC00915FCE /* PreparedCircleView.swift */,
 			);
 			path = FiguresHelper;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62FFF26C2757C3CE00915FCE /* ContentView.swift in Sources */,
+				62FFF2782757C6FC00915FCE /* PreparedCircleView.swift in Sources */,
 				62FFF26A2757C3CE00915FCE /* FiguresHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
