@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		62A195E42757CE60006117CE /* SphereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A195E32757CE60006117CE /* SphereView.swift */; };
+		62F07B0E2758446E00284E9B /* ParallelogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F07B0D2758446E00284E9B /* ParallelogramView.swift */; };
 		62FFF26A2757C3CE00915FCE /* FiguresHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFF2692757C3CE00915FCE /* FiguresHelperApp.swift */; };
 		62FFF26C2757C3CE00915FCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFF26B2757C3CE00915FCE /* ContentView.swift */; };
 		62FFF26E2757C3D000915FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FFF26D2757C3D000915FCE /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		62A195E32757CE60006117CE /* SphereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereView.swift; sourceTree = "<group>"; };
+		62F07B0D2758446E00284E9B /* ParallelogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelogramView.swift; sourceTree = "<group>"; };
 		62FFF2662757C3CE00915FCE /* FiguresHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiguresHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FFF2692757C3CE00915FCE /* FiguresHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiguresHelperApp.swift; sourceTree = "<group>"; };
 		62FFF26B2757C3CE00915FCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				62FFF26B2757C3CE00915FCE /* ContentView.swift */,
 				62FFF2772757C6FC00915FCE /* PreparedCircleView.swift */,
 				62A195E32757CE60006117CE /* SphereView.swift */,
+				62F07B0D2758446E00284E9B /* ParallelogramView.swift */,
 				62FFF26D2757C3D000915FCE /* Assets.xcassets */,
 				62FFF26F2757C3D000915FCE /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F07B0E2758446E00284E9B /* ParallelogramView.swift in Sources */,
 				62FFF26C2757C3CE00915FCE /* ContentView.swift in Sources */,
 				62A195E42757CE60006117CE /* SphereView.swift in Sources */,
 				62FFF2782757C6FC00915FCE /* PreparedCircleView.swift in Sources */,

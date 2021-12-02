@@ -25,7 +25,7 @@ struct SphereView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20){
             
-            Text("radius")
+            Text("Radius: ")
                 .bold()
             
             Group{
