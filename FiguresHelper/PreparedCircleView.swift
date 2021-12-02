@@ -16,7 +16,7 @@ struct CircleView: View {
     // By adding = 15.00 we are just providing a default value.
     // Input - we need this from the user
     // We want SwiftUI to update the user interface based on what the user selects.
-    // To do this, we use a special piece of syntax called a "property wrapper2
+    // To do this, we use a special piece of syntax called a "property wrapper"
     //
     // @State
     //
@@ -42,7 +42,7 @@ struct CircleView: View {
                 // Show the selected radius value
                 HStack {
                     Spacer()
-                    Text("\(radius)")
+                    Text("\(String(format: "%.0f", radius))")
                         .font(.title2)
                         .bold()
                     Spacer()
@@ -70,7 +70,7 @@ struct CircleView: View {
             Text("Area:")
                 .bold()
             
-            Text("\(area) square units")
+            Text("\(String(format: "%.2f", area)) square units")
                 .font(.title2)
             
             
