@@ -93,13 +93,13 @@ struct ParallelogramView: View {
                 }
                 
                 Slider(value: $sideC,
-                       in: 0.0...100.0,
+                       in: height...100.0,
                        step: 1.0,
                        label: {
                     Text("Side C")
                 },
                        minimumValueLabel: {
-                    Text("0.0")
+                    Text("\(height)")
                 },
                        maximumValueLabel: {
                     Text("100.0")
